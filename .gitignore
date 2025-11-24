@@ -1,0 +1,47 @@
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environment
+.env
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Firebase related sensitive files
+firebase-service-account.json
+firebase.json
+firestore.indexes.json
+firestore.rules
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.env
+*.pyo
+*.pyd
+
+# Node related if any package-lock.json or node_modules are there
+node_modules/
+package-lock.json
+
+# Others
+*.bak
+*.tmp
